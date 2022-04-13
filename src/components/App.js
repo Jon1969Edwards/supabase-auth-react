@@ -1,3 +1,4 @@
+import '../index.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Signup } from './Signup'
 import { Dashboard } from './Dashboard'
@@ -7,7 +8,7 @@ import { PrivateRoute } from './PrivateRoute'
 
 export function App() {
   return (
-    <div>
+    <div className="container" style={{ padding: '50px 0 100px 0' }}>
       <h1>supabase-auth-react</h1>
       <Router>
         <AuthProvider>
