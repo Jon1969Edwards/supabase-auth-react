@@ -1,5 +1,6 @@
 {
   "name": "supabase-auth-react",
+  "homepage": "https://lustrous-cendol-1a9d4e.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
